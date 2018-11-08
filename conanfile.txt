@@ -1,0 +1,11 @@
+[requires]
+gtest/1.7.0@bincrafters/stable
+Qt/5.8.0@osechet/stable
+libzip/1.5.1@bincrafters/stable
+
+[generators]
+cmake_find_package
+cmake_paths
+
+[imports]
+bin, *.dll -> ./bin
